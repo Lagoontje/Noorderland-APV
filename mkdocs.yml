@@ -1,0 +1,40 @@
+#Site Information
+site_name: 'Noorderland Roleplay Wetboek'
+site_url: 'https://wetboek.Noorderlandroleplay.nl/'
+site_description: 'Wet en regelgeving van Noorderland roleplay'
+site_author: 'Noorderland'
+
+#Copyright
+copyright: Copyright &copy; 2022 - 2023 Noorderland
+
+
+#Repo
+repo_url: 'https://github.com/CorruptSausage/NoorderlandRoleplayAPV'
+repo_name: 'CorruptSausage/NoorderlandRoleplayAPV'
+
+
+#navigation
+nav:
+    - Home: index.md
+    - Algemene Plaatselijke Verordening: APV.md
+    - Wetboek: wetboek.md
+    - Risicogebieden: RisicoGebieden.md
+    - NOTAM: Notam.md
+    - Streamen op Noorderland: streamen.md
+
+# Configuration   
+theme:
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  font:
+  text: Poppins
+  name: material
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
